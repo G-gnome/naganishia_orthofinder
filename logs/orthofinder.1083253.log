@@ -1,0 +1,210 @@
+/opt/linux/rocky/8.x/x86_64/pkgs/orthofinder/2.5.4/orthofinder
+
+OrthoFinder version 2.5.4 Copyright (C) 2014 David Emms
+
+2023-11-25 16:56:05 : Starting OrthoFinder 2.5.4
+64 thread(s) for highly parallel tasks (BLAST searches etc.)
+8 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "fastme -i output/Results_Nov25/WorkingDirectory/SimpleTest.phy -o output/Results_Nov25/WorkingDirectory/SimpleTest.tre" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2023-11-25 16:56:15 : Creating blast_nucl database 1 of 21
+2023-11-25 16:56:16 : Creating blast_nucl database 2 of 21
+2023-11-25 16:56:17 : Creating blast_nucl database 3 of 21
+2023-11-25 16:56:18 : Creating blast_nucl database 4 of 21
+2023-11-25 16:56:20 : Creating blast_nucl database 5 of 21
+2023-11-25 16:56:22 : Creating blast_nucl database 6 of 21
+2023-11-25 16:56:23 : Creating blast_nucl database 7 of 21
+2023-11-25 16:56:24 : Creating blast_nucl database 8 of 21
+2023-11-25 16:56:24 : Creating blast_nucl database 9 of 21
+2023-11-25 16:56:25 : Creating blast_nucl database 10 of 21
+2023-11-25 16:56:26 : Creating blast_nucl database 11 of 21
+2023-11-25 16:56:27 : Creating blast_nucl database 12 of 21
+2023-11-25 16:56:28 : Creating blast_nucl database 13 of 21
+2023-11-25 16:56:32 : Creating blast_nucl database 14 of 21
+2023-11-25 16:56:33 : Creating blast_nucl database 15 of 21
+2023-11-25 16:56:34 : Creating blast_nucl database 16 of 21
+2023-11-25 16:56:35 : Creating blast_nucl database 17 of 21
+2023-11-25 16:56:35 : Creating blast_nucl database 18 of 21
+2023-11-25 16:56:36 : Creating blast_nucl database 19 of 21
+2023-11-25 16:56:37 : Creating blast_nucl database 20 of 21
+2023-11-25 16:56:38 : Creating blast_nucl database 21 of 21
+
+Running blast_nucl all-versus-all
+---------------------------------
+Using 64 thread(s)
+2023-11-25 16:56:39 : This may take some time....
+2023-11-25 16:56:39 : Done 0 of 441
+2023-11-25 16:58:17 : Done 100 of 441
+2023-11-25 16:59:19 : Done 200 of 441
+2023-11-25 17:00:17 : Done 300 of 441
+2023-11-25 17:01:31 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2023-11-25 17:01:33 : Initial processing of each species
+2023-11-25 17:01:34 : Initial processing of species 6 complete
+2023-11-25 17:01:35 : Initial processing of species 7 complete
+2023-11-25 17:01:35 : Initial processing of species 4 complete
+2023-11-25 17:01:35 : Initial processing of species 3 complete
+2023-11-25 17:01:35 : Initial processing of species 1 complete
+2023-11-25 17:01:35 : Initial processing of species 5 complete
+2023-11-25 17:01:35 : Initial processing of species 2 complete
+2023-11-25 17:01:35 : Initial processing of species 8 complete
+2023-11-25 17:01:36 : Initial processing of species 11 complete
+2023-11-25 17:01:36 : Initial processing of species 10 complete
+2023-11-25 17:01:36 : Initial processing of species 14 complete
+2023-11-25 17:01:36 : Initial processing of species 9 complete
+2023-11-25 17:01:36 : Initial processing of species 0 complete
+2023-11-25 17:01:36 : Initial processing of species 17 complete
+2023-11-25 17:01:36 : Initial processing of species 13 complete
+2023-11-25 17:01:37 : Initial processing of species 16 complete
+2023-11-25 17:01:37 : Initial processing of species 15 complete
+2023-11-25 17:01:37 : Initial processing of species 20 complete
+2023-11-25 17:01:37 : Initial processing of species 19 complete
+2023-11-25 17:01:37 : Initial processing of species 12 complete
+2023-11-25 17:01:38 : Initial processing of species 18 complete
+2023-11-25 17:01:41 : Connected putative homologues
+2023-11-25 17:01:41 : Written final scores for species 4 to graph file
+2023-11-25 17:01:41 : Written final scores for species 5 to graph file
+2023-11-25 17:01:41 : Written final scores for species 6 to graph file
+2023-11-25 17:01:41 : Written final scores for species 1 to graph file
+2023-11-25 17:01:41 : Written final scores for species 7 to graph file
+2023-11-25 17:01:41 : Written final scores for species 2 to graph file
+2023-11-25 17:01:41 : Written final scores for species 8 to graph file
+2023-11-25 17:01:41 : Written final scores for species 12 to graph file
+2023-11-25 17:01:41 : Written final scores for species 3 to graph file
+2023-11-25 17:01:41 : Written final scores for species 13 to graph file
+2023-11-25 17:01:41 : Written final scores for species 11 to graph file
+2023-11-25 17:01:41 : Written final scores for species 9 to graph file
+2023-11-25 17:01:41 : Written final scores for species 15 to graph file
+2023-11-25 17:01:41 : Written final scores for species 14 to graph file
+2023-11-25 17:01:41 : Written final scores for species 19 to graph file
+2023-11-25 17:01:41 : Written final scores for species 17 to graph file
+2023-11-25 17:01:41 : Written final scores for species 10 to graph file
+2023-11-25 17:01:41 : Written final scores for species 20 to graph file
+2023-11-25 17:01:41 : Written final scores for species 16 to graph file
+2023-11-25 17:01:41 : Written final scores for species 18 to graph file
+2023-11-25 17:01:41 : Written final scores for species 0 to graph file
+2023-11-25 17:01:43 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 4262 genes (96.1% of total) to 270 orthogroups. Fifty percent of all genes were in orthogroups with 50 or more genes (G50 was 50) and were contained in the largest 29 orthogroups (O50 was 29). There were 14 orthogroups with all species present and 0 of these consisted entirely of single-copy genes.
+
+2023-11-25 17:01:47 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+
+Calculating gene distances
+--------------------------
+2023-11-25 17:01:54 : Done
+2023-11-25 17:01:55 : Done 0 of 192
+2023-11-25 17:01:55 : Done 10 of 192
+2023-11-25 17:01:55 : Done 20 of 192
+2023-11-25 17:01:55 : Done 30 of 192
+2023-11-25 17:01:55 : Done 40 of 192
+2023-11-25 17:01:55 : Done 50 of 192
+2023-11-25 17:01:55 : Done 60 of 192
+2023-11-25 17:01:55 : Done 70 of 192
+2023-11-25 17:01:55 : Done 80 of 192
+2023-11-25 17:01:55 : Done 90 of 192
+2023-11-25 17:01:55 : Done 100 of 192
+2023-11-25 17:01:55 : Done 110 of 192
+2023-11-25 17:01:55 : Done 120 of 192
+Using fallback species tree inference method
+
+Inferring gene and species trees
+--------------------------------
+
+Best outgroup(s) for species tree
+---------------------------------
+2023-11-25 17:01:57 : Starting STRIDE
+2023-11-25 17:01:59 : Done STRIDE
+Observed 5 well-supported, non-terminal duplications. 5 support the best roots and 0 contradict them.
+Best outgroups for species tree:
+  Naganishia_sp._IF7SW-B1_GCA_012922685.1
+  Naganishia_albida_GCA_012922635.1
+  Naganishia_albida_GCA_023628175.1
+  Naganishia_vaughanmartiniae_GCA_030039245.1
+  Naganishia_albida_GCA_012922635.1, Naganishia_albida_GCA_012922605.1, Naganishia_sp._IF7SW-B1_GCA_012922685.1, Naganishia_liquefaciens_GCA_019775365.1, Naganishia_adeliensis_GCA_012922715.1
+  Naganishia_albida_GCA_012922605.1
+  Naganishia_albida_GCA_024322255.1, .Cryptococcus._albidus_var._albidus_GCA_001444555.1, Naganishia_sp._KV-2022a_GCA_022813745.1, Naganishia_albida_GCA_001468955.1, Naganishia_albida_GCA_001599735.1, Naganishia_albida_GCA_023628155.1, Naganishia_albida_GCA_023628175.1, Naganishia_adeliensis_GCA_030039275.1
+  Naganishia_albida_GCA_001599735.1
+  Naganishia_albida_GCA_024322255.1, Naganishia_albida_GCA_023628155.1
+  Naganishia_sp._KV-2022a_GCA_022813745.1
+  Naganishia_albida_GCA_012922635.1, Naganishia_liquefaciens_GCA_013423385.1, Naganishia_albida_GCA_012922605.1, Naganishia_sp._IF7SW-B1_GCA_012922685.1, Naganishia_liquefaciens_GCA_019775365.1, Naganishia_adeliensis_GCA_012922715.1
+  Naganishia_liquefaciens_GCA_019775365.1
+  Naganishia_adeliensis_GCA_012922715.1, Naganishia_albida_GCA_012922635.1, Naganishia_albida_GCA_012922605.1, Naganishia_sp._IF7SW-B1_GCA_012922685.1
+  Naganishia_friedmannii_GCA_030039255.1
+  Naganishia_adeliensis_GCA_030039275.1, .Cryptococcus._albidus_var._albidus_GCA_001444555.1
+  Naganishia_onofrii_GCA_030039215.1
+  Naganishia_vaughanmartiniae_GCA_030039245.1, Naganishia_friedmannii_GCA_030039255.1
+  Naganishia_albida_GCA_024322255.1, Naganishia_sp._KV-2022a_GCA_022813745.1, Naganishia_albida_GCA_001468955.1, Naganishia_albida_GCA_001599735.1, Naganishia_albida_GCA_023628155.1, Naganishia_albida_GCA_023628175.1
+  Naganishia_randhawae_GCA_013461525.1, Naganishia_cerealis_GCA_030039265.1
+  Naganishia_friedmannii_GCA_030039255.1, Naganishia_onofrii_GCA_030039215.1, Naganishia_randhawae_GCA_013461525.1, Naganishia_vaughanmartiniae_GCA_030039245.1, Naganishia_cerealis_GCA_030039265.1
+  Naganishia_albida_GCA_012922635.1, Naganishia_albida_GCA_012922605.1, Naganishia_sp._IF7SW-B1_GCA_012922685.1
+  Naganishia_vishniacii_ANT03-052_GCA_015708705.1, Naganishia_antarctica_GCA_025758675.1
+  Naganishia_adeliensis_GCA_012922715.1
+  Naganishia_antarctica_GCA_025758675.1
+  Naganishia_liquefaciens_GCA_013423385.1
+  Naganishia_albida_GCA_024322255.1, Naganishia_albida_GCA_023628155.1, Naganishia_albida_GCA_023628175.1
+  Naganishia_albida_GCA_001468955.1
+  Naganishia_albida_GCA_012922605.1, Naganishia_sp._IF7SW-B1_GCA_012922685.1
+  Naganishia_albida_GCA_023628155.1
+  Naganishia_albida_GCA_001599735.1, Naganishia_albida_GCA_024322255.1, Naganishia_albida_GCA_023628155.1, Naganishia_albida_GCA_023628175.1
+  Naganishia_albida_GCA_024322255.1, Naganishia_albida_GCA_001468955.1, Naganishia_albida_GCA_001599735.1, Naganishia_albida_GCA_023628155.1, Naganishia_albida_GCA_023628175.1
+  Naganishia_randhawae_GCA_013461525.1, Naganishia_vaughanmartiniae_GCA_030039245.1, Naganishia_friedmannii_GCA_030039255.1, Naganishia_cerealis_GCA_030039265.1
+  Naganishia_vishniacii_ANT03-052_GCA_015708705.1, Naganishia_antarctica_GCA_025758675.1, Naganishia_onofrii_GCA_030039215.1, Naganishia_randhawae_GCA_013461525.1, Naganishia_vaughanmartiniae_GCA_030039245.1, Naganishia_friedmannii_GCA_030039255.1, Naganishia_cerealis_GCA_030039265.1
+  Naganishia_vishniacii_ANT03-052_GCA_015708705.1
+  Naganishia_albida_GCA_024322255.1
+
+WARNING: Multiple potential species tree roots were identified, only one will be analyed.
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: Naganishia_sp._IF7SW-B1_GCA_012922685.1
+2023-11-25 17:01:59 : Starting Recon and orthologues
+2023-11-25 17:01:59 : Starting OF Orthologues
+2023-11-25 17:01:59 : Done 0 of 191
+2023-11-25 17:01:59 : Done 10 of 191
+2023-11-25 17:01:59 : Done 20 of 191
+2023-11-25 17:01:59 : Done 30 of 191
+2023-11-25 17:01:59 : Done 40 of 191
+2023-11-25 17:01:59 : Done 50 of 191
+2023-11-25 17:01:59 : Done 60 of 191
+2023-11-25 17:01:59 : Done 70 of 191
+2023-11-25 17:01:59 : Done 80 of 191
+2023-11-25 17:01:59 : Done 90 of 191
+2023-11-25 17:01:59 : Done 100 of 191
+2023-11-25 17:01:59 : Done 110 of 191
+2023-11-25 17:01:59 : Done 120 of 191
+2023-11-25 17:01:59 : Done 130 of 191
+2023-11-25 17:01:59 : Done 140 of 191
+2023-11-25 17:01:59 : Done 150 of 191
+2023-11-25 17:01:59 : Done 160 of 191
+2023-11-25 17:01:59 : Done 170 of 191
+2023-11-25 17:01:59 : Done 180 of 191
+2023-11-25 17:01:59 : Done 190 of 191
+2023-11-25 17:02:00 : Done OF Orthologues
+
+Writing results files
+=====================
+2023-11-25 17:02:01 : Done orthologues
+
+Results:
+    output/Results_Nov25/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914

@@ -1,0 +1,5 @@
+Loading [1morthofinder/2.5.4[22m
+  [94mLoading requirement[0m: iqtree/2.1.1 ncbi-blast/2.12.0+ zoem/21-341 mcl/14-137
+    fastme/2.1.6.3 raxml-ng/1.2.0 raxml/8.2.12 diamond/2.0.14 MMseqs2/13-45111
+    muscle/5.1 fasttree/2.1.11
+ln: failed to create symbolic link './download': File exists
